@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Defectos topológicos}{2}{0}{1}
+\beamer@sectionintoc {2}{Cuerdas Cósmicas}{7}{0}{2}
+\beamer@sectionintoc {3}{Cuerdas cósmicas locales U(1)$_{B-L}$}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{Lagrangiano}{16}{0}{3}
+\beamer@subsectionintoc {3}{2}{Ecuaciones de movimiento}{20}{0}{3}
+\beamer@subsectionintoc {3}{3}{Resultados}{22}{0}{3}
+\beamer@sectionintoc {4}{Conclusiones}{27}{0}{4}

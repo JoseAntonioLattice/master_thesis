@@ -1,0 +1,468 @@
+\documentclass[14pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+ \usepackage[compat=1.0.0]{tikz-feynman}
+\institute{Instituto de Ciencias Nucleares, UNAM}
+\author{José Antonio García Hernández}
+\title{The profile of non-standard cosmic strings}
+%\setbeamercovered{transparent} 
+\setbeamertemplate{navigation symbols}{} 
+\setbeamertemplate{footline}[frame number]
+\usepackage{tikz}
+%\logo{} 
+%\institute{} 
+\date{Examen de grado de maestría \\ June 22 2023} 
+%\subject{} 
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}@{}}
+
+\usepackage[]{biblatex}
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+
+\begin{document}
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{Topological defects}
+Topological defect: Singularity of the field that cannot be removed without being altered at large distances. \\~\
+
+Stable.\\~\
+
+
+Topological defects in a system can be described by analyzing the topology of the vacuum manifold $\mathcal{M}=G/H$.
+
+
+\end{frame}
+
+\begin{frame}
+We study the homotopy group of the vacuum manifold $\pi_n(\mathcal{M})$.\\~\
+
+$\pi_n(\mathcal{M})$: contains information on how an $n$-dimensional \textit{loop} or closed surface cannot be contracted to a point. \\~\
+
+
+If $\pi_n(\mathcal{M}) \neq I \Rightarrow $ topological defects. \\~\
+
+If $\pi_n(\mathcal{M}) = \mathbb{Z} \Rightarrow $ topological charge or \textit{winding number}.
+\end{frame}
+
+
+\begin{frame}
+	There exist several examples of topological defects in condensed matter systems.\\~\
+	
+	In the physics of the early universe they are still hypothetical.
+\end{frame}
+
+
+\begin{frame}{Kibble Mechanism}
+It is generally assumed that phase transitions occurred in the early universe at the late stages of inflation. These transitions could have formed topological defects. \\~\
+
+Examples:\\
+\begin{itemize}
+	\item $\pi_0(\mathcal{M}) \neq I \Rightarrow$ Domain wall 
+	\item $\pi_1(\mathcal{M}) \neq I\Rightarrow$ Vortex (2d), cosmic strings (3d) 
+	\item $\pi_2(\mathcal{M}) \neq I\Rightarrow$ Monopole
+
+\end{itemize}
+
+\end{frame}
+
+
+\section{Cosmic Strings}
+\begin{frame}{Cosmic Strings}
+\begin{tabular}{@{} *{2}{C{\linewidth}} }
+  \includegraphics[scale=0.4]{/home/jose/Documents/Maestria/thesis/chapters/figures/string.pdf} \\[\abovecaptionskip]
+ 2-dimensional vortices stacked on top of each other, forming a cosmic string in three dimensions 
+\end{tabular}
+	
+
+\end{frame}
+
+
+
+\section{U(1)$_{B-L}$ exact local symmetry}
+\begin{frame}{U(1)$_{B-L}$ exact local symmetry}
+In the Standard Model U(1)$_{B-L}$ is an \textbf{exact} global symmetry. $B$ baryon number, $L$ lepton number.\\~\
+
+This is strange, an exact symmetry is only natural when it is local.\\~\
+\end{frame}
+
+\begin{frame}{Gauge symmetry}
+We promote U(1)$_{B-L}$ to a local symmetry and combine it with U$(1)_Y$. \\~\
+
+We introduce a new gauge coupling $h'$ and define a new charge as
+	$$Y' \equiv 2hY + \frac{h'}{2}(B-L).$$
+We take the gauge group to be U(1)$_{Y'}$ and we call the gauge field $\mathcal{A}_{\mu}$ .\\~\
+\end{frame}
+
+
+\begin{frame}{Gauge Anomaly}
+
+\begin{tabular}{@{} *{2}{C{\linewidth}} }
+  \includegraphics[scale=1]{/home/jose/Documents/Maestria/thesis/chapters/figures/triangularanomaly.pdf} \\[\abovecaptionskip]
+In each vertex the quarks of one generation contribute with $B=4$, and leptons with $L=3$. $B-L\neq 0$.
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+
+Gauge anomaly. It is cured by adding a $\nu_R$ ($L=1$) to each generation. \\~\
+
+Since the neutrinos have mass, it is natural to introduce a mechanism to give mass to the neutrinos.
+\end{frame}
+
+
+\begin{frame}
+We can give mass to the neutrino with a Dirac mass term 
+$$ f_{\nu} \left[\bar{\nu}_R \begin{pmatrix}-\Phi_0 & \Phi_+\end{pmatrix}\begin{pmatrix}
+	\nu_L \\
+	e_L
+\end{pmatrix} + \begin{pmatrix}\bar{\nu}_L & \bar{e}_L\end{pmatrix}
+\begin{pmatrix}
+	-\Phi^*_0 \\
+	\Phi^*_+
+\end{pmatrix}\nu_R\right], $$
+where $f_{\nu}$ is a Yukawa coupling.\\~\
+
+\end{frame}
+
+
+\begin{frame}
+Usually we can also give mass to the right-handed neutrinos with a Majorana mass term
+$$	M(\bar{\nu}_R+{\nu}^T_RC)(\nu_R+C\bar{\nu}_R^T). $$
+However, in our scenario, this term is forbidden since it breaks the U$(1)_{Y'}$ gauge symmetry.
+\end{frame}
+
+
+\begin{frame}
+To add a mass term solely for $\nu_R$, independently of $\nu_L$, we add a new Higgs field $\chi\in\mathbb{C}$
+$$f_{\nu_R} \nu_R^T \chi \nu_R + \text{c.c.},$$
+where $f_{\nu_R}$ is a Yukawa coupling. \\~\
+
+To preserve gauge invariance, the field $\chi$ must have a charge $B-L=2$.
+\end{frame}
+
+\begin{frame}
+We generate the Majorana mass with the Higgs mechanism using the new Higgs field $\chi \in \mathbb{C}$ .\\~\
+
+We denote the vacuum expectation value of $\chi$ as $v'$. \\~\
+
+$\chi$ gives a Majorana mass to the right-handed neutrino $M = f_{\nu_R} v'$.  \\~\
+
+\end{frame}
+
+\begin{frame}
+
+$\chi$ is added to the Lagrangian with the potential
+$$V' = \frac{m'^{2}}{2}\chi^*\chi+\frac{\lambda'}{4}(\chi^*\chi)^2.$$ 
+
+It is natural to include  
+$$ \frac{\kappa}{2}\Phi^{\dagger}\Phi\chi^*\chi.$$
+
+We assume that $v'\gg v$ and $f_{\nu_R}\simeq O(1)$ in order to give a large mass to the right-handed neutrino.
+\end{frame}
+
+\subsection{Lagrangian}
+\begin{frame}{Lagrangian}
+\begin{eqnarray*} 
+\mathcal{L} & = & \frac{1}{2}(D^{\mu}\Phi)^{\dagger}D_{\mu}\Phi - \frac{m^2}{2}\Phi^{\dagger}\Phi - \frac{\lambda}{4}(\Phi^{\dagger}\Phi)^2 -\frac{\lambda}{4}v^4   \nonumber\\
+ & & +\frac{1}{2}(D^{\mu} \chi)^*D_{\mu} \chi - \frac{m'^2}{2}\chi^*\chi - \frac{\lambda'}{4}(\chi^* \chi)^2 -\frac{\lambda'}{4}v'^4\nonumber \\ 
+ & & -\frac{\kappa}{2}\Phi^\dagger\Phi\chi^*\chi  -\frac{\kappa}{2}v^2v'^2 -\frac{1}{4}\mathcal{F}^{\mu\nu}\mathcal{F}_{\mu\nu}, %+ \frac{1}{4}B_{\mu\nu}B_{\mu\nu}
+\end{eqnarray*}
+
+\begin{itemize}
+	\item $\Phi = (\phi_+,\phi_0)^{\text{T}} \in \mathbb{C}^2$
+	\item $D_{\mu} \Phi = (\partial_{\mu} + ih\mathcal{A}_{\mu})\Phi$
+	\item $D_{\mu} \chi = (\partial_{\mu} + ih'\mathcal{A}_{\mu})\chi$
+	\item $\mathcal{F}_{\mu\nu}= \partial_{\mu}\mathcal{A}_{\nu}-\partial_{\nu}\mathcal{A}_{\mu}$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+For the potential to be bounded from below, we need
+\begin{equation*}
+	\lambda>0, \ \ \ \lambda'>0, \ \ \ \kappa^2 < \lambda \lambda',
+\end{equation*}
+and for spontaneous symmetry breaking to occur
+\begin{eqnarray*}
+ m^2 = -\kappa v'^2 - \lambda v^2<0,\\
+  m'^2 = -\kappa v^2 - \lambda' v'^2<0.
+\end{eqnarray*}
+
+
+
+\end{frame}
+
+\begin{frame}{Equations of motion}
+\begin{eqnarray*}
+	D^{\mu}D_{\mu} \Phi & = & -m^2 \Phi - \lambda (\Phi^{\dagger}\Phi)\Phi - \kappa \Phi \chi^* \chi \\
+	D^{\mu}D_{\mu} \chi & = & -m'^2 \chi - \lambda' (\chi^{*}\chi)\chi - \kappa \chi \Phi^{\dagger} \Phi \\
+	\partial^{\lambda}\mathcal{F}_{\lambda\nu}  & = & -\frac{ih}{2}\left[ (D_{\nu}\Phi)^{\dagger}\Phi-\Phi^{\dagger}(D_{\nu}\Phi)\right] \\
+	& & - \frac{ih'}{2}\left[ (D_{\nu}\chi)^{*}\chi-\chi^{*}(D_{\nu}\chi)\right]
+\end{eqnarray*}
+\end{frame}
+
+\begin{frame}{Ansatz}
+The Lagrangian has a U$(1)_{Y'}$ symmetry which can ``spontaneously break" down to $I$. \\~\
+
+$\mathcal{M} = \text{U}(1)_{Y'}/I=\text{U}(1) \Rightarrow \pi_1(\text{U}(1)) = \mathbb{Z} \Rightarrow$ cosmic strings. \\~\
+
+We only consider the component $\phi_0$ of the Higgs field $\Phi$. Cylindrically symmetric ansatz
+
+\begin{eqnarray*}
+	\phi_0(r,\varphi) & = & \phi(r) e^{in\varphi} \\
+	\chi(r,\varphi) & = & \xi(r) e^{in'\varphi} \\
+	\mathbf{\mathcal{A}}(r) & = & \frac{a(r)}{r} \hat{\varphi}.
+\end{eqnarray*}
+
+\end{frame}
+\subsection{Equations of motion}
+\begin{frame}{Equations of motion}
+\begin{eqnarray*}
+\partial_r^2 \phi + \frac{1}{r} \partial_r \phi- \frac{\left(n+ha\right)^2}{r^2}\phi- m^2 \phi- \lambda \phi^3-\kappa \phi \xi^2 = 0 \\
+\partial_r^2 \xi + \frac{1}{r} \partial_r \xi - \frac{\left(n'+h'a\right)^2}{r^2}\xi -m'^2\xi - \lambda' \xi^3 -\kappa \xi \phi^2 = 0\\
+\partial_r^2a -\frac{1}{r}\partial_r a-h(n+ha)\phi^2-h'(n' + h'a )\xi^2 = 0.
+\end{eqnarray*}
+Boundary conditions
+\begin{eqnarray*}
+	\phi(0)=0, & \displaystyle\lim_{r\to\infty}\phi(r) = v \\
+	 \xi(0)=0, &  \displaystyle\lim_{r\to\infty}\xi(r) = v' \\
+	 a(0)=0, & \displaystyle \lim_{r\to\infty}a(r) = -\frac{n}{h}=-\frac{n'}{h'} .
+\end{eqnarray*}
+
+\end{frame}
+
+\begin{frame}
+
+Boundary value problem, numerical solutions with the damped Newton method.\\~\
+
+Solutions uniquely defined by inserting $v$, $v'$, $\lambda$, $\lambda'$, $h$, $h'$, $n$ and $n'$.\\~\
+
+We choose $v'\gg v$. \\~\
+
+$v=246$ GeV is used to convert all dim'less variables to physical units. 
+We display the profile radius $r$ in units of  
+\begin{equation*}
+	 v_{\text{dim'less}}\cdot 0.0008\ \text{fm}.
+\end{equation*}
+
+\end{frame}
+
+\subsection{Results}
+
+
+\begin{frame}
+\begin{tabular}{@{} *{2}{C{\linewidth}} }
+  \includegraphics[scale=0.6]{/home/jose/Documents/Maestria/thesis/chapters/figures/F0.pdf} \\[\abovecaptionskip]
+$v=0.5$, $v'=1$, $n=n'=h=h'=\lambda=\lambda'=1$.
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+\begin{tabular}{@{} *{2}{C{\linewidth}} }
+  \includegraphics[scale=0.6]{/home/jose/Documents/Maestria/thesis/chapters/figures/Figure_1.pdf} \\[\abovecaptionskip]
+$v = 0.5$, $v'=1$, $n=1$, $n'=2$, $h=1$, $h'=2$, $\lambda=\lambda'=1$.
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+\begin{tabular}{@{} *{2}{C{\linewidth}} }
+\includegraphics[scale=0.5]{/home/jose/Documents/Maestria/thesis/chapters/figures/n-5h5np-1hp1l1lp1v05vp2.pdf} \\[\abovecaptionskip]
+$v = 0.5$, $v'=2$, $n=-5$, $n'=-1$, $h=5$, $h'=1$, $\lambda=\lambda'=1$. This is an example from the SO(10) GUT [Buchm\"uller/Greub/Minkowski, '91].
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+
+\begin{tabular}{@{} *{2}{C{\linewidth}} }
+\includegraphics[scale=0.6]{/home/jose/Documents/Maestria/thesis/chapters/n1h1np1hp1l1lp1v001vp1edited.pdf} \\[\abovecaptionskip]
+$n = h = n' = h'  = \lambda=\lambda' = 1,\ v =0.01,\ v' = 1 $
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+
+\begin{tabular}{@{} *{2}{C{\linewidth}} }
+\includegraphics[scale=0.55]{/home/jose/Documents/Maestria/thesis/chapters/n-2h05np10hp-25l1lp1v001vp1combined.pdf} \\[\abovecaptionskip]
+\textbf{Coaxial string solution}, cf.\ [Bogomol'nyi, 1975] with $n = -2,\ h =0.5,\ n' = 10,\ h' = -2.5,\  \lambda=1,\ \lambda' = 1,\ v =0.01,\ v' = 1$.
+\end{tabular}
+\end{frame}
+
+
+
+\begin{frame}
+\begin{figure}
+	\centering
+	\includegraphics[scale=.5]{/home/jose/Documents/Maestria/thesis/chapters/figures/n-2h05np10hp-25l1lp1v001vp1eden.pdf}
+	\caption{Energy density, $v = 0.01$, $v'=1$, $n=-2$, $n'=10$, $h=0.5$, $h'=-2.5$, $\lambda=\lambda'=1$, in units of $4.79\times 10^{19}\ \text{GeV}/\text{fm}^3$.}
+	\label{fig:edencoaxial}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+By integrating the energy density we find that the string tension is of the order of
+\begin{equation*}
+	\mu \sim 10^{10}\ \text{GeV}^2 = 10^{25} \ \frac{\text{kg}}{\text{pc}}.
+\end{equation*}
+Therefore
+\begin{equation*}
+	G\mu \sim 10^{-28},
+\end{equation*}
+where $G = \frac{1}{(1.2\times 10^{19}\ \text{GeV})^2}$.\\~\
+
+The LIGO/Virgo collaboration set constraints to the string tension
+\begin{equation*}
+		G\mu \lesssim 4\times 10^{-15}.
+	\end{equation*}		
+\end{frame}
+
+\section{Summary}
+\begin{frame}{Summary}
+In this BSM model, we added
+\begin{itemize}
+	\item A new gauge coupling $h'$ 
+	\item A right-handed neutrino $\nu_R$
+	\item A new Higgs field $\chi\in\mathbb{C}$ \\~\
+
+\end{itemize}
+
+A non-standard type of cosmic strings is possible.\\~\
+
+Overshoot and coaxial string solutions. \\~\
+ 
+At large distances, they do not affect known physics.\\~\
+
+
+\end{frame}
+ 
+\begin{frame}
+
+
+Not observed but detectable, in principle. Like gravitational wave detection, gravitational lensing, CMB anisotropies etc. \\~\
+
+No contradictions with SM physics, motivated from the exactness of U$(1)_{B-L}$.
+\end{frame}
+
+
+\begin{frame}
+	\centering
+	\Huge The end\\~\
+	
+	\Large Can I have my master's now?
+	
+\end{frame}
+
+\begin{frame}{Measurements of the CMB power spectrum}
+
+A short time after the Big Bang the universe was filled with a plasm of baryons, leptons and photons.\\~\
+
+When the universe was $\sim 300,000$ years old, the first atoms were formed. \\~\
+
+Since atoms are electrically neutral, photons decoupled from matter. A process known as \textit{recombination}.\\~\
+
+This radiation is called the CMB.
+
+\end{frame}
+
+\begin{frame}
+	If cosmic strings exist they would have a distinctive footprint in the CMB \textit{power spectrum}.\\~\
+	
+Photons passing near a cosmic string produce discontinuities in the CMB of the order of 
+\begin{equation*}
+	\frac{\Delta T}{T} = 8\pi G \mu \beta,
+\end{equation*}	
+	where $\beta$ is the transverse velocity of the string and $T$ is the average temperature and $\Delta T$ is the magnitude of temperature fluctuations.
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.45]{/home/jose/Documents/Maestria/thesis/chapters/figures/Planck_Power_Spectrum.jpg}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+According to the measurments obtained by PLANCK, the constriction to the string tension is
+\begin{equation*}
+G\mu \lesssim 1.49\times 10^{-7}.
+\end{equation*}
+\end{frame}
+
+
+\begin{frame}{Gravitational lensing}
+Energy momentum tensor of a static cosmic string
+\begin{equation*}
+	T^{\mu\nu} = \mu\delta(x)\delta(y)\,\text{diag}(1,0,0,-1).
+	\label{eq:energytensor}
+\end{equation*}
+Far from the core the line element reads
+\begin{equation*}
+	ds^2 = dt^2-dr'^2-r'^2d\varphi'^2-dz^2,
+	\label{eq:metric}
+\end{equation*}
+where
+\begin{equation*}
+(1-8G\mu\log(r/r_0))r^2 = (1-8G\mu)r'^2,  \ \varphi' = (1-4G\mu)\varphi.
+\end{equation*}
+Here $r\in [0,\infty] $, $\varphi\in[0,2\pi)$ and $r_0$ is a constant.
+\end{frame}
+
+
+\begin{frame}
+This implies an angular deficit 
+\begin{equation*}
+\Delta \varphi = \varphi_{\text{max}} - \varphi'_{\text{max}} = 2\pi -2\pi(1-4G\mu) = 8\pi G\mu.
+\end{equation*}
+A cosmic string produces a double image of an object behind it separated by the angle
+\begin{equation*}
+	\alpha = \frac{l_1}{l_2}\Delta\varphi\sin\theta,
+\end{equation*}
+assuming $G\mu\ll 1$, where $l_1$ is the distance between the string and the observer, $l_2$ is the distance between the object and the string and $\theta$ is the angle that the string makes with the plane perpendicular between the observer and the object.
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.3]{/home/jose/Documents/Maestria/thesis/chapters/figures/stringlensing.jpeg}
+\end{figure} 
+\end{frame}
+
+
+\begin{frame}{Gravitational waves}
+One of the most realistic ways of possible detection of cosmic string is by their emission of gravitational radiation.\\~\
+
+According to General Relativity, an oscillating \textit{loop} of a cosmic string looses energy with power
+\begin{equation*}
+	P = \Gamma G \mu^2,
+\end{equation*}
+where $\Gamma$ is a constant.
+\end{frame}
+
+\begin{frame}
+
+	This \textit{loops} have a characteristic emission of gravitational waves produced by \textit{kinks} and \textit{cusps}.\\~\
+
+	Kinks are discontinuities in $\dot x^{\mu}$. \\~\
+
+	Cusps are pointy regions on the string.\\~\
+	
+	Cusps produce signals beamed in the direction of the cusp.
+	
+\end{frame}
+
+\begin{frame}
+	\begin{figure}
+	\centering
+	\includegraphics[scale=1.5]{/home/jose/Documents/Maestria/thesis/chapters/figures/cusp.pdf}
+	\caption{A loop with a cusp. Near the cusp the speeds of the right and left modes are the speed of light.}
+		\label{fig:cusp}
+\end{figure}
+\end{frame}
+
+\end{document}
+

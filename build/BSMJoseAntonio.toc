@@ -1,0 +1,13 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Cosmic Strings}{6}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{U(1)$_{B-L}$ exact local symmetry}{7}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Lagrangian}{16}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Equations of motion}{20}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{3}{Results}{22}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Summary}{29}{0}{3}
