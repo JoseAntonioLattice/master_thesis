@@ -1,0 +1,211 @@
+\documentclass[12pt,twoside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+
+\usepackage{babel}
+\newcommand{\ESP}[1]{\foreignlanguage{spanish}{#1}}
+%\usepackage[left=4cm,right=3cm,top=3.5cm,bottom=3.5cm]{geometry}
+\usepackage{cite}
+
+\let\tmp\oddsidemargin
+\let\oddsidemargin\evensidemargin
+\let\evensidemargin\tmp
+\reversemarginpar
+
+
+\usepackage{lmodern} %fuentes
+%\usepackage[T1]{fontenc} %fuentes
+%\usepackage[spanish]{babel} %idoma
+\usepackage{caption, subcaption} %figuras
+%\usepackage{graphicx}
+\usepackage{array}
+%\usepackage{bachelorstitlepageUNAM}
+
+\usepackage{pdfpages}
+
+\usepackage{tikz}
+\usetikzlibrary{spy}
+
+%\author{Jos\'e Antonio Garc\'ia Hern\'andez}
+%\title{The profile of non-standard cosmic strings}
+%\faculty{Instituto de Ciencias Nucleares}
+%\degree{MAESTR\'IA EN CIENCIAS F\'ISICAS}
+%\supervisor{Dr. Wolfgang Peter Bietenholz}
+%\cityandyear{Ciudad Universitaria, Cd. Mx., 2022}
+%\logouni{Escudo-UNAM}
+%\logofac{logoicn.png}
+
+%\date{}
+
+%calligraphic style. Used to represent the C in the loop space in chapter 1
+\usepackage[scr=rsfso,frak=euler]{mathalfa}
+
+
+\usepackage{hyphenat}
+\hyphenation{cho-le-ster-ic}
+%
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+
+\allowdisplaybreaks
+
+%CAncel terms
+\usepackage{cancel}
+
+% References
+
+%\usepackage[backend=biber,sorting=none]{biblatex}
+
+\usepackage{natbib}
+% Package for enhancing apalike and other default bibliographies
+\bibliographystyle{unsrt}
+% Just a bibliographystyle
+\usepackage{url}
+% Package for including urls in bibliography
+
+\usepackage{fancyhdr}
+\lhead{}
+% Package for setting the header and footinoter of pages
+%\pagestyle{fancy}
+
+
+
+\usepackage{epstopdf}
+% package for including eps figures and convert them to pdf and present them
+
+\graphicspath{{./images/}}
+% Folder where all the pictures are saved
+
+\usepackage{setspace}
+\onehalfspacing
+% Package and command to set the spacing in the document
+\linespread{1.5}
+
+%\setlength{\marginparwidth}{0pt}
+
+\usepackage[breaklinks=true,bookmarks=true,bookmarksopen=true,colorlinks=true,linkcolor=blue,citecolor=red,pdfhighlight=/P]{hyperref}
+% For including Hyperlinks in the document
+
+%\usepackage[a4paper,top=1.5in,bottom=1.5in,left=2in,right=1.5in]{geometry}
+% Package for setting up the shape of the page
+
+\pagestyle{fancy}
+% A predefined page style in fancyhdr package
+
+\begin{document}
+%\input{portada.tex}
+\includepdf[pages=-]{./build/titlepage.pdf}
+
+%	\begin{titlepage}
+%		\setlength{\parindent}{0pt} \setlength{\parskip}{0pt}
+%	
+%		\begin{center}
+%			\vfill 
+%			
+%			\begin{minipage}{\textwidth}
+%				
+%				\newcolumntype{V}{>{\centering\arraybackslash} m{.17\textwidth} }
+%				\newcolumntype{C}{>{\centering\arraybackslash} m{.56\textwidth} }
+%				
+%				\begin{center}
+%					\includegraphics[width=4cm]{Escudo-UNAM.pdf}	
+%				\end{center} 	
+%				\begin{center}
+%					\textbf{\large{Universidad Nacional Aut\'onoma de M\'exico}}
+%				\end{center} 
+%				
+%			\end{minipage}
+%				
+%			\vfill
+%			
+%			\begin{minipage}{\textwidth}
+%				\begin{center}
+%					\large \sc Programa de Posgrado en Ciencias Físicas
+%				\end{center}
+%			\end{minipage}
+%			 
+%			\begin{center}
+%				
+%				%\vfill
+%				\medskip \rule{.9\textwidth}{2pt}
+%				\vfill
+%				\Huge \textbf{\sc The profile of non-standard cosmic strings}
+%				{\Large \bfseries  \title   }
+%				
+%				%\medskip \rule{.9\textwidth}{2pt}
+%			\end{center}		
+%			\begin{center}
+%				\vspace*{0.3cm}
+%				{\large \textbf{T E S I S}}\\
+%				\vspace*{0.3cm}
+%				\sc que para optar por el grado de \\ \bigskip
+%				{\large {\sc Maestro en ciencias físicas}} \\ \bigskip
+%				
+%				%PRESENTA:\\ \medskip
+%				\begin{center}
+%					\sc \textbf{PRESENTA} \\
+%					\Large José Antonio García Hernández
+%				\end{center}				
+%				Tutor Principal: \\
+%				Wolfgang Bietenholz, ICN\\
+%				Coadvisors
+%				{Comité Tutor:}\\
+%				Dr. José Alejandro Ayala Mercado, ICN\\
+%				Dr. Eduardo Peinado Rodríguez, IF
+%				
+%			\end{center}
+%			
+%			%\vfill
+%			
+%			\begin{center}
+%				{México, CDMX.  2023}\\
+%			\end{center}
+%			\cleardoublepage
+%		\end{center}
+%	\end{titlepage}
+%\frontmatter
+%\includepdf[pages={1}]{/home/jose/Documents/Maestria/thesis/chapters/build/portada.pdf}
+%\maketitle
+
+%\input{titlepage}
+
+\chapter*{Acknowledgments}
+\input{acknowledgments}
+
+\chapter*{Resumen}
+\input{resumen}
+
+\chapter*{Abstract}
+\input{abstract}
+\tableofcontents
+
+\chapter{Introduction}\label{chap:intro}
+\input{introduction}
+
+\chapter{Theoretical background}\label{chap:back}
+\input{background}
+
+\chapter{Cosmic strings}\label{chap:cosmic}
+\input{cosmicstrings}
+
+\chapter{U$(1)_{Y'}$ local cosmic strings}\label{chap:Ycosmic}
+\input{blcosmicstrings}
+
+\chapter{Profiles of U$(1)_{Y'}$ cosmic strings}\label{chap:results} 
+\input{results}
+
+\chapter{Summary and conclusions}%U$(1)_{Y}\otimes$
+\input{conclusions}
+%\appendix
+%\chapter{}
+
+\bibliography{bibliography}
+
+
+\end{document}
