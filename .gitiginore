@@ -1,1 +1,8 @@
 build/
+*bak
+*gz
+*toc
+*aux
+*log
+*nav
+

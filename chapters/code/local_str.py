@@ -23,9 +23,9 @@ import math
 #
 
 beta = 3.5
-v    = 0.05
-lmb  = beta/2#1.0
-n    = 3.0
+v    = 1#0.05
+lmb  = 1#beta/2#1.0
+n    = 1#3.0
 h   = 1#(2*lmb/beta)**0.5
 a_inf = -n/h
 msq  = -lmb * v**2 
@@ -39,7 +39,7 @@ def bc(ya,yb):
 
 # define mesh
 r0 = 1e-3
-rf = 100.0
+rf = 10.0
 N = 400
 r = np.linspace(r0,rf,N)
 y = np.zeros((4,r.size))

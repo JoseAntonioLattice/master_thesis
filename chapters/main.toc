@@ -1,35 +1,35 @@
-\babel@toc {nil}{}
-\contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Theoretical background}{15}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Topological defects}{15}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Review of topology}{16}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Higher homotopy groups}{20}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Review of group theory}{21}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Order parameter spaces as coset spaces}{24}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Examples of topological defects in physics}{25}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}The planar spin model in 2-dimensions}{25}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Nematics}{26}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Quantum vortices in superfluid helium}{31}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Quantum field theory}{34}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}The vacuum as the order parameter manifold}{34}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Vacuum topology}{35}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}The Kibble mechanism}{36}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}The Standard Model}{36}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}The global U$(1)_{B-L}$ symmetry}{38}{subsection.2.4.1}%
-\contentsline {chapter}{\numberline {3}Cosmic strings}{41}{chapter.3}%
-\contentsline {section}{\numberline {3.1}The creation of cosmic strings in the early universe}{41}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Global cosmic strings}{43}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}energy density}{47}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}Local cosmic strings}{48}{section.3.3}%
-\contentsline {section}{\numberline {3.4}The mass of a local U$(1)$ string}{51}{section.3.4}%
-\contentsline {section}{\numberline {3.5}The search for cosmic strings}{54}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}CMB power spectrum measurements}{54}{subsection.3.5.1}%
+\babel@toc {nil}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Theoretical background}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Topological defects}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Review of topology}{14}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Higher homotopy groups}{18}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Review of group theory}{19}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Order parameter spaces as coset spaces}{22}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Examples of topological defects in physics}{23}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}The planar spin model in 2-dimensions}{23}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Nematics}{24}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Quantum vortices in superfluid helium}{29}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Quantum field theory}{32}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}The vacuum as the order parameter manifold}{32}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Vacuum topology}{33}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}The Kibble mechanism}{34}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}The Standard Model}{34}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}The global U$(1)_{B-L}$ symmetry}{36}{subsection.2.4.1}%
+\contentsline {chapter}{\numberline {3}Cosmic strings}{39}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The creation of cosmic strings in the early universe}{39}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Global cosmic strings}{41}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Energy density}{45}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Local cosmic strings}{46}{section.3.3}%
+\contentsline {section}{\numberline {3.4}The mass of a local U$(1)$ string}{49}{section.3.4}%
+\contentsline {section}{\numberline {3.5}The search for cosmic strings}{52}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}CMB power spectrum measurements}{52}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Gravitational lensing}{56}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Gravitational waves}{60}{subsection.3.5.3}%
-\contentsline {chapter}{\numberline {4}U$(1)_{Y'}$ local cosmic strings}{65}{chapter.4}%
-\contentsline {section}{\numberline {4.1}An extension of the Standard Model}{65}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Lagrangian and equations of motion for U(1)$_{Y'}$ cosmic strings}{68}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Boundary conditions}{74}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Condition on $\kappa $}{75}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}Profiles of U$(1)_{Y'}$ cosmic strings}{81}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Summary and conclusions}{97}{chapter.6}%
+\contentsline {subsection}{\numberline {3.5.3}Gravitational waves}{58}{subsection.3.5.3}%
+\contentsline {chapter}{\numberline {4}U$(1)_{Y'}$ local cosmic strings}{63}{chapter.4}%
+\contentsline {section}{\numberline {4.1}An extension of the Standard Model}{63}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Lagrangian and equations of motion for U(1)$_{Y'}$ cosmic strings}{66}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Boundary conditions}{72}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Condition on $\kappa $}{73}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Profiles of U$(1)_{Y'}$ cosmic strings}{79}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Summary and conclusions}{95}{chapter.6}%

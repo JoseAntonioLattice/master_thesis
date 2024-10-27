@@ -1,34 +1,34 @@
-\BOOKMARK [0][]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [0][]{chapter.2}{Theoretical background}{}% 2
-\BOOKMARK [1][]{section.2.1}{Topological defects}{chapter.2}% 3
-\BOOKMARK [2][]{subsection.2.1.1}{Review of topology}{section.2.1}% 4
-\BOOKMARK [2][]{subsection.2.1.2}{Higher homotopy groups}{section.2.1}% 5
-\BOOKMARK [2][]{subsection.2.1.3}{Review of group theory}{section.2.1}% 6
-\BOOKMARK [2][]{subsection.2.1.4}{Order parameter spaces as coset spaces}{section.2.1}% 7
-\BOOKMARK [1][]{section.2.2}{Examples of topological defects in physics}{chapter.2}% 8
-\BOOKMARK [2][]{subsection.2.2.1}{The planar spin model in 2-dimensions}{section.2.2}% 9
-\BOOKMARK [2][]{subsection.2.2.2}{Nematics}{section.2.2}% 10
-\BOOKMARK [2][]{subsection.2.2.3}{Quantum vortices in superfluid helium}{section.2.2}% 11
-\BOOKMARK [1][]{section.2.3}{Quantum field theory}{chapter.2}% 12
-\BOOKMARK [2][]{subsection.2.3.1}{The vacuum as the order parameter manifold}{section.2.3}% 13
-\BOOKMARK [2][]{subsection.2.3.2}{Vacuum topology}{section.2.3}% 14
-\BOOKMARK [2][]{subsection.2.3.3}{The Kibble mechanism}{section.2.3}% 15
-\BOOKMARK [1][]{section.2.4}{The Standard Model}{chapter.2}% 16
-\BOOKMARK [2][]{subsection.2.4.1}{The global U\(1\)B-L symmetry}{section.2.4}% 17
-\BOOKMARK [0][]{chapter.3}{Cosmic strings}{}% 18
-\BOOKMARK [1][]{section.3.1}{The creation of cosmic strings in the early universe}{chapter.3}% 19
-\BOOKMARK [1][]{section.3.2}{Global cosmic strings}{chapter.3}% 20
-\BOOKMARK [2][]{subsection.3.2.1}{energy density}{section.3.2}% 21
-\BOOKMARK [1][]{section.3.3}{Local cosmic strings}{chapter.3}% 22
-\BOOKMARK [1][]{section.3.4}{The mass of a local U\(1\) string}{chapter.3}% 23
-\BOOKMARK [1][]{section.3.5}{The search for cosmic strings}{chapter.3}% 24
-\BOOKMARK [2][]{subsection.3.5.1}{CMB power spectrum measurements}{section.3.5}% 25
-\BOOKMARK [2][]{subsection.3.5.2}{Gravitational lensing}{section.3.5}% 26
-\BOOKMARK [2][]{subsection.3.5.3}{Gravitational waves}{section.3.5}% 27
-\BOOKMARK [0][]{chapter.4}{U\(1\)Y' local cosmic strings}{}% 28
-\BOOKMARK [1][]{section.4.1}{An extension of the Standard Model}{chapter.4}% 29
-\BOOKMARK [1][]{section.4.2}{Lagrangian and equations of motion for U\(1\)Y' cosmic strings}{chapter.4}% 30
-\BOOKMARK [2][]{subsection.4.2.1}{Boundary conditions}{section.4.2}% 31
-\BOOKMARK [2][]{subsection.4.2.2}{Condition on }{section.4.2}% 32
-\BOOKMARK [0][]{chapter.5}{Profiles of U\(1\)Y' cosmic strings}{}% 33
-\BOOKMARK [0][]{chapter.6}{Summary and conclusions}{}% 34
+\BOOKMARK [0][]{chapter.1}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{}% 1
+\BOOKMARK [0][]{chapter.2}{\376\377\000T\000h\000e\000o\000r\000e\000t\000i\000c\000a\000l\000\040\000b\000a\000c\000k\000g\000r\000o\000u\000n\000d}{}% 2
+\BOOKMARK [1][]{section.2.1}{\376\377\000T\000o\000p\000o\000l\000o\000g\000i\000c\000a\000l\000\040\000d\000e\000f\000e\000c\000t\000s}{chapter.2}% 3
+\BOOKMARK [2][]{subsection.2.1.1}{\376\377\000R\000e\000v\000i\000e\000w\000\040\000o\000f\000\040\000t\000o\000p\000o\000l\000o\000g\000y}{section.2.1}% 4
+\BOOKMARK [2][]{subsection.2.1.2}{\376\377\000H\000i\000g\000h\000e\000r\000\040\000h\000o\000m\000o\000t\000o\000p\000y\000\040\000g\000r\000o\000u\000p\000s}{section.2.1}% 5
+\BOOKMARK [2][]{subsection.2.1.3}{\376\377\000R\000e\000v\000i\000e\000w\000\040\000o\000f\000\040\000g\000r\000o\000u\000p\000\040\000t\000h\000e\000o\000r\000y}{section.2.1}% 6
+\BOOKMARK [2][]{subsection.2.1.4}{\376\377\000O\000r\000d\000e\000r\000\040\000p\000a\000r\000a\000m\000e\000t\000e\000r\000\040\000s\000p\000a\000c\000e\000s\000\040\000a\000s\000\040\000c\000o\000s\000e\000t\000\040\000s\000p\000a\000c\000e\000s}{section.2.1}% 7
+\BOOKMARK [1][]{section.2.2}{\376\377\000E\000x\000a\000m\000p\000l\000e\000s\000\040\000o\000f\000\040\000t\000o\000p\000o\000l\000o\000g\000i\000c\000a\000l\000\040\000d\000e\000f\000e\000c\000t\000s\000\040\000i\000n\000\040\000p\000h\000y\000s\000i\000c\000s}{chapter.2}% 8
+\BOOKMARK [2][]{subsection.2.2.1}{\376\377\000T\000h\000e\000\040\000p\000l\000a\000n\000a\000r\000\040\000s\000p\000i\000n\000\040\000m\000o\000d\000e\000l\000\040\000i\000n\000\040\0002\000-\000d\000i\000m\000e\000n\000s\000i\000o\000n\000s}{section.2.2}% 9
+\BOOKMARK [2][]{subsection.2.2.2}{\376\377\000N\000e\000m\000a\000t\000i\000c\000s}{section.2.2}% 10
+\BOOKMARK [2][]{subsection.2.2.3}{\376\377\000Q\000u\000a\000n\000t\000u\000m\000\040\000v\000o\000r\000t\000i\000c\000e\000s\000\040\000i\000n\000\040\000s\000u\000p\000e\000r\000f\000l\000u\000i\000d\000\040\000h\000e\000l\000i\000u\000m}{section.2.2}% 11
+\BOOKMARK [1][]{section.2.3}{\376\377\000Q\000u\000a\000n\000t\000u\000m\000\040\000f\000i\000e\000l\000d\000\040\000t\000h\000e\000o\000r\000y}{chapter.2}% 12
+\BOOKMARK [2][]{subsection.2.3.1}{\376\377\000T\000h\000e\000\040\000v\000a\000c\000u\000u\000m\000\040\000a\000s\000\040\000t\000h\000e\000\040\000o\000r\000d\000e\000r\000\040\000p\000a\000r\000a\000m\000e\000t\000e\000r\000\040\000m\000a\000n\000i\000f\000o\000l\000d}{section.2.3}% 13
+\BOOKMARK [2][]{subsection.2.3.2}{\376\377\000V\000a\000c\000u\000u\000m\000\040\000t\000o\000p\000o\000l\000o\000g\000y}{section.2.3}% 14
+\BOOKMARK [2][]{subsection.2.3.3}{\376\377\000T\000h\000e\000\040\000K\000i\000b\000b\000l\000e\000\040\000m\000e\000c\000h\000a\000n\000i\000s\000m}{section.2.3}% 15
+\BOOKMARK [1][]{section.2.4}{\376\377\000T\000h\000e\000\040\000S\000t\000a\000n\000d\000a\000r\000d\000\040\000M\000o\000d\000e\000l}{chapter.2}% 16
+\BOOKMARK [2][]{subsection.2.4.1}{\376\377\000T\000h\000e\000\040\000g\000l\000o\000b\000a\000l\000\040\000U\000\050\0001\000\051\000B\000-\000L\000\040\000s\000y\000m\000m\000e\000t\000r\000y}{section.2.4}% 17
+\BOOKMARK [0][]{chapter.3}{\376\377\000C\000o\000s\000m\000i\000c\000\040\000s\000t\000r\000i\000n\000g\000s}{}% 18
+\BOOKMARK [1][]{section.3.1}{\376\377\000T\000h\000e\000\040\000c\000r\000e\000a\000t\000i\000o\000n\000\040\000o\000f\000\040\000c\000o\000s\000m\000i\000c\000\040\000s\000t\000r\000i\000n\000g\000s\000\040\000i\000n\000\040\000t\000h\000e\000\040\000e\000a\000r\000l\000y\000\040\000u\000n\000i\000v\000e\000r\000s\000e}{chapter.3}% 19
+\BOOKMARK [1][]{section.3.2}{\376\377\000G\000l\000o\000b\000a\000l\000\040\000c\000o\000s\000m\000i\000c\000\040\000s\000t\000r\000i\000n\000g\000s}{chapter.3}% 20
+\BOOKMARK [2][]{subsection.3.2.1}{\376\377\000E\000n\000e\000r\000g\000y\000\040\000d\000e\000n\000s\000i\000t\000y}{section.3.2}% 21
+\BOOKMARK [1][]{section.3.3}{\376\377\000L\000o\000c\000a\000l\000\040\000c\000o\000s\000m\000i\000c\000\040\000s\000t\000r\000i\000n\000g\000s}{chapter.3}% 22
+\BOOKMARK [1][]{section.3.4}{\376\377\000T\000h\000e\000\040\000m\000a\000s\000s\000\040\000o\000f\000\040\000a\000\040\000l\000o\000c\000a\000l\000\040\000U\000\050\0001\000\051\000\040\000s\000t\000r\000i\000n\000g}{chapter.3}% 23
+\BOOKMARK [1][]{section.3.5}{\376\377\000T\000h\000e\000\040\000s\000e\000a\000r\000c\000h\000\040\000f\000o\000r\000\040\000c\000o\000s\000m\000i\000c\000\040\000s\000t\000r\000i\000n\000g\000s}{chapter.3}% 24
+\BOOKMARK [2][]{subsection.3.5.1}{\376\377\000C\000M\000B\000\040\000p\000o\000w\000e\000r\000\040\000s\000p\000e\000c\000t\000r\000u\000m\000\040\000m\000e\000a\000s\000u\000r\000e\000m\000e\000n\000t\000s}{section.3.5}% 25
+\BOOKMARK [2][]{subsection.3.5.2}{\376\377\000G\000r\000a\000v\000i\000t\000a\000t\000i\000o\000n\000a\000l\000\040\000l\000e\000n\000s\000i\000n\000g}{section.3.5}% 26
+\BOOKMARK [2][]{subsection.3.5.3}{\376\377\000G\000r\000a\000v\000i\000t\000a\000t\000i\000o\000n\000a\000l\000\040\000w\000a\000v\000e\000s}{section.3.5}% 27
+\BOOKMARK [0][]{chapter.4}{\376\377\000U\000\050\0001\000\051\000Y\000'\000\040\000l\000o\000c\000a\000l\000\040\000c\000o\000s\000m\000i\000c\000\040\000s\000t\000r\000i\000n\000g\000s}{}% 28
+\BOOKMARK [1][]{section.4.1}{\376\377\000A\000n\000\040\000e\000x\000t\000e\000n\000s\000i\000o\000n\000\040\000o\000f\000\040\000t\000h\000e\000\040\000S\000t\000a\000n\000d\000a\000r\000d\000\040\000M\000o\000d\000e\000l}{chapter.4}% 29
+\BOOKMARK [1][]{section.4.2}{\376\377\000L\000a\000g\000r\000a\000n\000g\000i\000a\000n\000\040\000a\000n\000d\000\040\000e\000q\000u\000a\000t\000i\000o\000n\000s\000\040\000o\000f\000\040\000m\000o\000t\000i\000o\000n\000\040\000f\000o\000r\000\040\000U\000\050\0001\000\051\000Y\000'\000\040\000c\000o\000s\000m\000i\000c\000\040\000s\000t\000r\000i\000n\000g\000s}{chapter.4}% 30
+\BOOKMARK [2][]{subsection.4.2.1}{\376\377\000B\000o\000u\000n\000d\000a\000r\000y\000\040\000c\000o\000n\000d\000i\000t\000i\000o\000n\000s}{section.4.2}% 31
+\BOOKMARK [2][]{subsection.4.2.2}{\376\377\000C\000o\000n\000d\000i\000t\000i\000o\000n\000\040\000o\000n\000\040}{section.4.2}% 32
+\BOOKMARK [0][]{chapter.5}{\376\377\000P\000r\000o\000f\000i\000l\000e\000s\000\040\000o\000f\000\040\000U\000\050\0001\000\051\000Y\000'\000\040\000c\000o\000s\000m\000i\000c\000\040\000s\000t\000r\000i\000n\000g\000s}{}% 33
+\BOOKMARK [0][]{chapter.6}{\376\377\000S\000u\000m\000m\000a\000r\000y\000\040\000a\000n\000d\000\040\000c\000o\000n\000c\000l\000u\000s\000i\000o\000n\000s}{}% 34
