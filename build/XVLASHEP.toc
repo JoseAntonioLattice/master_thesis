@@ -3,4 +3,4 @@
 \beamer@subsectionintoc {2}{1}{Lagrangian}{12}{0}{2}
 \beamer@subsectionintoc {2}{2}{Equations of motion}{16}{0}{2}
 \beamer@subsectionintoc {2}{3}{Results}{18}{0}{2}
-\beamer@sectionintoc {3}{Summary}{25}{0}{3}
+\beamer@sectionintoc {3}{Summary}{23}{0}{3}

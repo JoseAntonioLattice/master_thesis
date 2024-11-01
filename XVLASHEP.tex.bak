@@ -5,7 +5,7 @@
 \usepackage{amssymb}
 %\usepackage[compat=1.0.0]{tikz-feynman}
 \institute{Instituto de Ciencias Nucleares, UNAM}
-\author{José Antonio García Hernández}
+\author{José Antonio García Hernández \\ Victor Muñoz Vitelly \\ Wolfgang Bietenholz}
 \title{The profile of non-standard cosmic strings}
 %\setbeamercovered{transparent} 
 \setbeamertemplate{navigation symbols}{} 
@@ -19,7 +19,7 @@
 %\usepackage{tikz}
 %\logo{} 
 %\institute{} 
-\date{XV Latin American Symposium on High Energy Physics\\ November 7 2024} 
+\date{XV Latin American Symposium on High Energy Physics\\ November 4 2024} 
 %\subject{} 
 \usepackage{array}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}@{}}
@@ -47,6 +47,8 @@ Examples:\\
 
 \end{itemize}
 
+$\mathcal{M}$: Vacuum manifold.
+
 \end{frame}
 
 
@@ -62,7 +64,10 @@ Examples:\\
 \section{Cosmic Strings}
 \begin{frame}{Cosmic Strings}
 %\begin{tabular}{@{} {2}{C{\linewidth}} }
-  \includegraphics[scale=0.4]{chapters/figures/string.pdf} %\\[\abovecaptionskip]
+\begin{center}
+\includegraphics[scale=0.4]{chapters/figures/string.pdf}
+\end{center}
+   %\\[\abovecaptionskip]
 2-dimensional vortices stacked on top of each other, forming a cosmic string in three dimensions 
 %\end{tabular}
 
@@ -71,24 +76,30 @@ Examples:\\
 
 
 \section{U(1)$_{B-L}$ exact local symmetry}
-\begin{frame}{U(1)$_{B-L}$ exact local symmetry}
+\begin{frame}{U(1)$_{B-L}$ exact global symmetry}
 In the Standard Model U(1)$_{B-L}$ is an \textbf{exact} global symmetry. $B$ baryon number, $L$ lepton number.\\~\
 
 This is strange, an exact symmetry is only natural when it is local.\\~\
+
+We promote U(1)$_{B-L}$ to a local symmetry and combine it with U$(1)_Y$.
 \end{frame}
 
 \begin{frame}{Gauge symmetry}
-We promote U(1)$_{B-L}$ to a local symmetry and combine it with U$(1)_Y$. \\~\
+
 
 We introduce a new gauge coupling $h'$ and define a new charge as
-	$$Y' \equiv 2hY + \frac{h'}{2}(B-L).$$
-We take the gauge group to be U(1)$_{Y'}$ and we call the gauge field $\mathcal{A}_{\mu}$ .\\~\
+	$$Y' \equiv 2hY + \frac{h'}{2}(B-L),$$
+$h$, $h'$ gauge couplings.\\~\
+
+We take the gauge group to be U(1)$_{Y'}$ and we call the gauge field $\mathcal{A}_{\mu}$ .
 \end{frame}
 
 
 \begin{frame}{Gauge Anomaly}
 %\begin{tabular}{@{} *{2}{C{\linewidth}} }
+\begin{center}
   \includegraphics[scale=1]{chapters/figures/triangularanomaly.pdf}% \\[\abovecaptionskip]
+  \end{center}
 In each vertex the quarks of one generation contribute with $B=4$, and leptons with $L=3$. $B-L\neq 0$.
 %%\end{tabular}
 \end{frame}
@@ -125,14 +136,14 @@ Since the neutrinos have mass, it is natural to introduce a mechanism to give ma
 
 \begin{frame}
 To add a mass term solely for $\nu_R$, independently of $\nu_L$, we add a new Higgs field $\chi\in\mathbb{C}$
-$$f_{\nu_R} \nu_R^T \chi \nu_R + \text{c.c.},$$
+$$f_{\nu_R} \nu_R^T \chi C^{\dagger}\nu_R + \text{c.c.},$$
 where $f_{\nu_R}$ is a Yukawa coupling. \\~\
 
 To preserve gauge invariance, the field $\chi$ must have a charge $B-L=2$.
 \end{frame}
 
 \begin{frame}
-We generate the Majorana mass with the Higgs mechanism using the new Higgs field $\chi \in \mathbb{C}$ .\\~\
+We generate the Majorana mass with the Higgs mechanism using a non-standard Higgs field $\chi \in \mathbb{C}$ .\\~\
 
 We denote the vacuum expectation value of $\chi$ as $v'$. \\~\
 
@@ -142,27 +153,27 @@ $\chi$ gives a Majorana mass to the right-handed neutrino $M = f_{\nu_R} v'$.  \
 
 \begin{frame}
 
-$\chi$ is added to the Lagrangian with the potential
+$\chi$ is added to the Lagrangian with a quartic potential (power counting renormalizable)
 $$V' = \frac{m'^{2}}{2}\chi^*\chi+\frac{\lambda'}{4}(\chi^*\chi)^2.$$ 
 
-It is natural to include  
+It is natural to include (normalizable, gauge invariant)
 $$ \frac{\kappa}{2}\Phi^{\dagger}\Phi\chi^*\chi.$$
 
-We assume that $v'\gg v$ and $f_{\nu_R}\simeq O(1)$ in order to give a large mass to the right-handed neutrino.
+We assume that $v' > v$ and $f_{\nu_R}$ sufficiently large.
 \end{frame}
 
 \subsection{Lagrangian}
 \begin{frame}{Lagrangian}
 \begin{eqnarray*} 
 \mathcal{L} & = & \frac{1}{2}(D^{\mu}\Phi)^{\dagger}D_{\mu}\Phi - \frac{m^2}{2}\Phi^{\dagger}\Phi - \frac{\lambda}{4}(\Phi^{\dagger}\Phi)^2 -\frac{\lambda}{4}v^4   \nonumber\\
- & & +\frac{1}{2}(D^{\mu} \chi)^*D_{\mu} \chi - \frac{m'^2}{2}\chi^*\chi - \frac{\lambda'}{4}(\chi^* \chi)^2 -\frac{\lambda'}{4}v'^4\nonumber \\ 
+ & & +\frac{1}{2}(d^{\mu} \chi)^*d_{\mu} \chi - \frac{m'^2}{2}\chi^*\chi - \frac{\lambda'}{4}(\chi^* \chi)^2 -\frac{\lambda'}{4}v'^4\nonumber \\ 
  & & -\frac{\kappa}{2}\Phi^\dagger\Phi\chi^*\chi  -\frac{\kappa}{2}v^2v'^2 -\frac{1}{4}\mathcal{F}^{\mu\nu}\mathcal{F}_{\mu\nu}, %+ \frac{1}{4}B_{\mu\nu}B_{\mu\nu}
 \end{eqnarray*}
 
 \begin{itemize}
 	\item $\Phi = (\phi_+,\phi_0)^{\text{T}} \in \mathbb{C}^2$
 	\item $D_{\mu} \Phi = (\partial_{\mu} + ih\mathcal{A}_{\mu})\Phi$
-	\item $D_{\mu} \chi = (\partial_{\mu} + ih'\mathcal{A}_{\mu})\chi$
+	\item $d_{\mu} \chi = (\partial_{\mu} + ih'\mathcal{A}_{\mu})\chi$
 	\item $\mathcal{F}_{\mu\nu}= \partial_{\mu}\mathcal{A}_{\nu}-\partial_{\nu}\mathcal{A}_{\mu}$
 \end{itemize}
 \end{frame}
@@ -183,9 +194,9 @@ and for spontaneous symmetry breaking to occur
 \begin{frame}{Equations of motion}
 \begin{eqnarray*}
 	D^{\mu}D_{\mu} \Phi & = & -m^2 \Phi - \lambda (\Phi^{\dagger}\Phi)\Phi - \kappa \Phi \chi^* \chi \\
-	D^{\mu}D_{\mu} \chi & = & -m'^2 \chi - \lambda' (\chi^{*}\chi)\chi - \kappa \chi \Phi^{\dagger} \Phi \\
+	d^{\mu}d_{\mu} \chi & = & -m'^2 \chi - \lambda' (\chi^{*}\chi)\chi - \kappa \chi \Phi^{\dagger} \Phi \\
 	\partial^{\lambda}\mathcal{F}_{\lambda\nu}  & = & -\frac{ih}{2}\left[ (D_{\nu}\Phi)^{\dagger}\Phi-\Phi^{\dagger}(D_{\nu}\Phi)\right] \\
-	& & - \frac{ih'}{2}\left[ (D_{\nu}\chi)^{*}\chi-\chi^{*}(D_{\nu}\chi)\right]
+	& & - \frac{ih'}{2}\left[ (d_{\nu}\chi)^{*}\chi-\chi^{*}(d_{\nu}\chi)\right]
 \end{eqnarray*}
 \end{frame}
 
@@ -198,7 +209,7 @@ We only consider the component $\phi_0$ of the Higgs field $\Phi$. Cylindrically
 
 \begin{eqnarray*}
 	\phi_0(r,\varphi) & = & \phi(r) e^{in\varphi} \\
-	\chi(r,\varphi) & = & \xi(r) e^{in'\varphi} \\
+	\chi(r,\varphi) & = & \xi(r) e^{in'\varphi} ,\ n, n' \text{ winding numbers}\\
 	\mathbf{\mathcal{A}}(r) & = & \frac{a(r)}{r} \hat{\varphi}.
 \end{eqnarray*}
 
@@ -210,7 +221,7 @@ We only consider the component $\phi_0$ of the Higgs field $\Phi$. Cylindrically
 \partial_r^2 \xi + \frac{1}{r} \partial_r \xi - \frac{\left(n'+h'a\right)^2}{r^2}\xi -m'^2\xi - \lambda' \xi^3 -\kappa \xi \phi^2 = 0\\
 \partial_r^2a -\frac{1}{r}\partial_r a-h(n+ha)\phi^2-h'(n' + h'a )\xi^2 = 0.
 \end{eqnarray*}
-Boundary conditions
+Boundary conditions ($n,n'\neq 0$)
 \begin{eqnarray*}
 	\phi(0)=0, & \displaystyle\lim_{r\to\infty}\phi(r) = v \\
 	 \xi(0)=0, &  \displaystyle\lim_{r\to\infty}\xi(r) = v' \\
@@ -225,7 +236,7 @@ Boundary value problem, numerical solutions with the damped Newton method.\\~\
 
 Solutions uniquely defined by inserting $v$, $v'$, $\lambda$, $\lambda'$, $h$, $h'$, $n$ and $n'$.\\~\
 
-We choose $v'\gg v$. \\~\
+We choose $v' > v$. \\~\
 
 $v=246$ GeV is used to convert all dim'less variables to physical units. 
 We display the profile radius $r$ in units of  
@@ -238,12 +249,12 @@ We display the profile radius $r$ in units of
 \subsection{Results}
 
 
-\begin{frame}
-%%\begin{tabular}{@{} *{2}{C{\linewidth}} }
-  \includegraphics[scale=0.6]{chapters/figures/F0.pdf} %\\[\abovecaptionskip]
-$v=0.5$, $v'=1$, $n=n'=h=h'=\lambda=\lambda'=1$.
-%%\end{tabular}
-\end{frame}
+%\begin{frame}
+%%%\begin{tabular}{@{} *{2}{C{\linewidth}} }
+%  \includegraphics[scale=0.6]{chapters/figures/F0.pdf} %\\[\abovecaptionskip]
+%$v=0.5$, $v'=1$, $n=n'=h=h'=\lambda=\lambda'=1$.
+%%%\end{tabular}
+%\end{frame}
 
 \begin{frame}
 %%\begin{tabular}{@{} *{2}{C{\linewidth}} }
@@ -254,20 +265,22 @@ $v = 0.5$, $v'=1$, $n=1$, $n'=2$, $h=1$, $h'=2$, $\lambda=\lambda'=1$.
 %
 \begin{frame}
 %%\begin{tabular}{@{} *{2}{C{\linewidth}} }
-\includegraphics[scale=0.5]{chapters/figures/n-5h5np-1hp1l1lp1v05vp2.pdf} %\\[\abovecaptionskip]
+\begin{center}
+\includegraphics[scale=0.5]{chapters/figures/n-5h5np-1hp1l1lp1v05vp2.pdf} %\\
+\end{center}
 $v = 0.5$, $v'=2$, $n=-5$, $n'=-1$, $h=5$, $h'=1$, $\lambda=\lambda'=1$. This is an example from the SO(10) GUT [Buchm\"uller/Greub/Minkowski, '91].
 %%\end{tabular}
 \end{frame}
 
 \begin{frame}
 
-%\begin{tabular}{@{} *{2}{C{\linewidth}} }
-\includegraphics[scale=0.6]{chapters/n1h1np1hp1l1lp1v001vp1edited.pdf}% \\[\abovecaptionskip]
-$n = h = n' = h'  = \lambda=\lambda' = 1,\ v =0.01,\ v' = 1 $
-%\end{tabular}
-\end{frame}
+%%\begin{tabular}{@{} *{2}{C{\linewidth}} }
+%\includegraphics[scale=0.6]{chapters/n1h1np1hp1l1lp1v001vp1edited.pdf}% \\[\abovecaptionskip]
+%$n = h = n' = h'  = \lambda=\lambda' = 1,\ v =0.01,\ v' = 1 $
+%%\end{tabular}
+%\end{frame}
 
-\begin{frame}
+%\begin{frame}
 
 %\begin{tabular}{@{} *{2}{C{\linewidth}} }
 \includegraphics[scale=0.55]{chapters/n-2h05np10hp-25l1lp1v001vp1combined.pdf} %\\[\abovecaptionskip]
@@ -278,16 +291,16 @@ $n = h = n' = h'  = \lambda=\lambda' = 1,\ v =0.01,\ v' = 1 $
 
 
 \begin{frame}
-\begin{figure}
-	\centering
+\begin{center}
 	\includegraphics[scale=.5]{chapters/figures/n-2h05np10hp-25l1lp1v001vp1eden.pdf}
-	\caption{Energy density, $v = 0.01$, $v'=1$, $n=-2$, $n'=10$, $h=0.5$, $h'=-2.5$, $\lambda=\lambda'=1$, in units of $4.79\times 10^{19}\ \text{GeV}/\text{fm}^3$.}
+	\end{center}
+	{Energy density, $v = 0.01$, $v'=1$, $n=-2$, $n'=10$, $h=0.5$, $h'=-2.5$, $\lambda=\lambda'=1$, in units of $4.79\times 10^{19}\ \text{GeV}/\text{fm}^3$.}
 %	\label{fig:edencoaxial}
-\end{figure}
+
 \end{frame}
 
 \begin{frame}
-By integrating the energy density we find that the string tension is of the order of
+By integrating over the area the energy density, we find that the string tension is of the order of
 \begin{equation*}
 	\mu \sim 10^{10}\ \text{GeV}^2 = 10^{25} \ \frac{\text{kg}}{\text{pc}}.
 \end{equation*}
@@ -305,9 +318,9 @@ The LIGO/Virgo collaboration set constraints to the string tension
 
 \section{Summary}
 \begin{frame}{Summary}
-In this BSM model, we added
+In this BSM model, motivated from the exactness of U$(1)_{B-L}$, we added
 \begin{itemize}
-	\item A new gauge coupling $h'$ 
+	\item A new Abelian gauge field $\mathcal{A}_{\mu}$ 
 	\item A right-handed neutrino $\nu_R$
 	\item A new Higgs field $\chi\in\mathbb{C}$ \\~\
 
@@ -322,13 +335,6 @@ At large distances, they do not affect known physics.\\~\
 
 \end{frame}
  
-\begin{frame}
-
-
-Not observed but detectable, in principle. Like gravitational wave detection, gravitational lensing, CMB anisotropies etc. \\~\
-
-No contradictions with SM physics, motivated from the exactness of U$(1)_{B-L}$.
-\end{frame}
 
 
 
