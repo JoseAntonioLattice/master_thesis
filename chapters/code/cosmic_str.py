@@ -27,7 +27,7 @@
 # 10 mar 2021 -- 10 mar 2021
 # Implement euclidian version
 #
-# 6th version
+# 6th versiono
 # 29 august 2021
 # Compute energy density
 
@@ -48,15 +48,15 @@ import math
 #                                     y5,  1/r y5 + h n y0**2 + h**2 y4 y0**2 + h' n' y2**2 + h'**2 y4 y2**2}
 #
 
-v    = .01
+v    = 0.5
 vp   = 1.0
 lmb  = 1.0  
 lmbp = 1.0
-n    = 2.0
-npp =  -10.0
-h   = .5
-hp  = npp*h/n
-a_inf = -n/h
+n    = 0
+npp  = -2
+h    = 0.0
+hp   = 1.0#npp*h/n
+a_inf = -npp/hp
 def der(r,y,kappa,msq,msqp):
     return np.vstack((y[1], -y[1]/r + y[0]/r**2*(  n**2 + 2*h*n*y[4]    +  h**2*(y[4])**2) +  msq*y[0] \
                             + lmb*(y[0])**3  + kappa*y[0]*(y[2])**2,\
@@ -64,13 +64,17 @@ def der(r,y,kappa,msq,msqp):
                             + lmbp*(y[2])**3 + kappa*y[2]*(y[0])**2, \
                       y[5], y[5]/r  + h*n*(y[0])**2 + h**2*y[4]*(y[0])**2 + hp*npp*(y[2])**2 + hp**2*y[4]*(y[2])**2 ))
 
+#def bc(ya,yb):
+#    return np.array([ya[0],yb[0] - v,ya[2],yb[2] - vp,ya[4],yb[4] - a_inf])
+
+
 def bc(ya,yb):
-    return np.array([ya[0],yb[0] - v,ya[2],yb[2] - vp,ya[4],yb[4] - a_inf])
- 
+    return np.array([ya[1],yb[1],ya[2],yb[2]-vp,ya[4],yb[4] - a_inf])
+
 #kmax = min(np.sqrt(lmb*lmbp),msqp*lmb/msq,msq*lmbp/msq)
                    
 NN = 21
-k0 = -1*np.sqrt(lmb*lmbp)
+k0 = -1*np.sqrt(lmb*lmbp)+0.1
 kf =  -k0
 
 
@@ -83,8 +87,8 @@ msqparray = -kappaarray* v**2 - lmbp*vp**2
 
 # define mesh
 r0 = 1e-3
-rf = 60.0
-N = 300
+rf = 50.0
+N = 500
 
 r = np.linspace(r0,rf,N)
 
@@ -103,7 +107,7 @@ cmap = plt.get_cmap('jet',NN)
 e = np.zeros((len(r),NN))
 
 
-datafile = open("profile.dat",'w')
+datafile = open("data/profile_l=%1.2f_lp=%1.2f_n=%d_np=%d_h=%1.2f_hp=%1.2f_v=%1.2f_vp=%1.2f.dat" % (lmb,lmbp,n,npp,h,hp,v,vp),'w')
 datafile2 = open("consistency.dat",'w')
 
 
@@ -168,7 +172,7 @@ for ii in range(NN):
   
     tension = 2*math.pi*(r[1]-r[0])*tension
     for i in range(N):
-        print(r[i],y_plot[i],dy_plot[i],y2_plot[i],dy2_plot[i],y3_plot[i],dy3_plot[i],e[i,ii],ii, file = datafile)
+        print(r[i],y_plot[i],dy_plot[i],y2_plot[i],dy2_plot[i],y3_plot[i],dy3_plot[i],e[i,ii],ii,kappa, file = datafile)
 
 
     print(tension,'#Tension od the string = ',tension*(246/v)**2,'GeV^2','Mass of a string = ', 10**42 * tension*(246/v)**2 *10**(-27),file = datafile)

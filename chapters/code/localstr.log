@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.29)  22 OCT 2024 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.29)  6 DEC 2024 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -196,31 +196,31 @@ e
 \gptboxwidth=\skip52
 \gptboxtext=\box53
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 173.
+(Font)              <10.95> on input line 171.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 173.
+(Font)              <8> on input line 171.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 173.
+(Font)              <6> on input line 171.
 Package epstopdf Info: Source file: <localstr-inc.eps>
-(epstopdf)                    date: 2024-10-22 16:46:45
-(epstopdf)                    size: 27266 bytes
+(epstopdf)                    date: 2024-12-06 12:05:25
+(epstopdf)                    size: 27240 bytes
 (epstopdf)             Output file: <localstr-inc-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-22 16:46:33
-(epstopdf)                    size: 6460 bytes
+(epstopdf)                    date: 2024-12-05 12:25:28
+(epstopdf)                    size: 6506 bytes
 (epstopdf)             Command: <repstopdf --outfile=localstr-inc-eps-converted
 -to.pdf localstr-inc.eps>
-(epstopdf)             \includegraphics on input line 174.
+(epstopdf)             \includegraphics on input line 172.
 runsystem(repstopdf --outfile=localstr-inc-eps-converted-to.pdf localstr-inc.ep
 s)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <localstr-inc-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-22 16:46:45
-(epstopdf)                    size: 6461 bytes.
+(epstopdf)                    date: 2024-12-06 12:05:38
+(epstopdf)                    size: 6503 bytes.
 <localstr-inc-eps-converted-to.pdf, id=1, 361.35pt x 252.945pt>
 File: localstr-inc-eps-converted-to.pdf Graphic file (type pdf)
 <use localstr-inc-eps-converted-to.pdf>
 Package pdftex.def Info: localstr-inc-eps-converted-to.pdf  used on input line 
-174.
+172.
 (pdftex.def)             Requested size: 361.35463pt x 252.94823pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/en
 c/dvips/cm-super/cm-super-t1.enc} <./localstr-inc-eps-converted-to.pdf>]
@@ -242,7 +242,7 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 /fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on localstr.pdf (1 page, 43441 bytes).
+Output written on localstr.pdf (1 page, 43473 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream

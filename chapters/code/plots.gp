@@ -4,7 +4,7 @@ reset
 
 #set terminal pdf 
 
-set terminal epslatex standalone
+set terminal epslatex standalone lw 2
 set output "globalstr.tex"
 
 set style line 1 linecolor '#3b4992' linewidth 3
@@ -26,11 +26,13 @@ set label 3 '$v$' font',16' at 9.5,.95
 f(value, left, right) = (value < left || value > right ? 1/0 : value)
 
 #set output 'global_str.pdf'
-#pl [][-.1:1.1]'global_profile.dat' u 1:2 notitle w l ls 1, [1:10]'' u 1:3 notitle w l ls 2
+#pl [][-.1:1.1]'global_profile.dat' u 1:2 notitle w l ls 1 lw 2 , [1:10]'' u 1:3 notitle w l ls 2
 #unset output
+
+
 #set multiplot
-plot [][0:1.5]'global_profile.dat' u (f($1,0.01,10)):3 notitle w l ls 2,\
-     'global_profile.dat' u (f($1,0,10)):2 notitle w l ls 1
+plot [][-0.1:1.1]'global_profile.dat' u (f($1,0.01,10)):3 notitle w l ls 2 lw 3,\
+     'global_profile.dat' u (f($1,0,10)):2 notitle w l ls 1 lw 3
 #unset multiplot
 
 unset output
